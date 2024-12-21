@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           targetNamespace="http://www.contoso.com/books">
+  <xs:element name="books">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="book">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string"/>
+              <xs:element name="price" type="xs:decimal"/>
+              <xs:element name="genre" type="xs:string"/>
+              <xs:element name="isbn" type="xs:string"/>
+              <xs:element name="publicationDate">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="publicationYear" type="xs:int"/>
+                    <xs:element name="publicationMonth" type="xs:int"/>
+                    <xs:element name="publicationDay" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

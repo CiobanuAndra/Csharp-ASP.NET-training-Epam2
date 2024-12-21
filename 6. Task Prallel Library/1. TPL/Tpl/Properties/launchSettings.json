@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Tpl": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Munca IT\\Epam\\BACKEND PROGRAM\\MATERIALE\\3. C# advanced\\6. Task Prallel Library\\1. TPL\\Tpl.sln"
+    }
+  }
+}

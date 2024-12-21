@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberTheory", "NumberTheory\NumberTheory.csproj", "{16662226-DE3E-4D6E-B65F-A60B1AE671B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberTheory.Tests", "NumberTheory.Tests\NumberTheory.Tests.csproj", "{3ECF3B7F-0A54-471B-A95C-AFE3E3929DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{778DAEBE-5E48-4137-AB9A-BBAD1A720FD9}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16662226-DE3E-4D6E-B65F-A60B1AE671B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16662226-DE3E-4D6E-B65F-A60B1AE671B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16662226-DE3E-4D6E-B65F-A60B1AE671B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16662226-DE3E-4D6E-B65F-A60B1AE671B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECF3B7F-0A54-471B-A95C-AFE3E3929DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECF3B7F-0A54-471B-A95C-AFE3E3929DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECF3B7F-0A54-471B-A95C-AFE3E3929DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECF3B7F-0A54-471B-A95C-AFE3E3929DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55ACE1DE-7CC8-470B-9991-0088D5566252}
+	EndGlobalSection
+EndGlobal

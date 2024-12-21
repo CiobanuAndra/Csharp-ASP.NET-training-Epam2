@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           targetNamespace="http://www.contoso.com/book">
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:attribute name="title" type="xs:string" use="required"/>
+      <xs:attribute name="price" type="xs:decimal" use="required"/>
+      <xs:attribute name="genre" type="xs:string" use="required"/>
+      <xs:attribute name="isbn" type="xs:string" use="required"/>
+      <xs:attribute name="publicationDate" type="xs:date" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

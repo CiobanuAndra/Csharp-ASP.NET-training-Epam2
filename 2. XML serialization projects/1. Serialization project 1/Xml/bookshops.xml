@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co:bookshops xmlns:co="http://www.contoso.com/bookshops"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <co:bookshop id="1">
+        <co:name>Book Haven</co:name>
+        <co:website>http://www.bookhaven.com</co:website>
+        <co:books>
+            <co:book id="101">
+                <co:authors>
+                    <co:author>Jane Austen</co:author>
+                </co:authors>
+                <co:title>Pride And Prejudice</co:title>
+                <co:genres>
+                    <co:genre>Classic Regency novel</co:genre>
+                    <co:genre>Romance novel</co:genre>
+                </co:genres>
+                <co:categories>
+                    <co:category>Fiction</co:category>
+                    <co:category>Literature</co:category>
+                </co:categories>
+                <co:price currency="USD">24.95</co:price>
+                <co:language>English</co:language>
+            </co:book>
+            <co:book id="102">
+                <co:authors>
+                    <co:author>Margaret Atwood</co:author>
+                </co:authors>
+                <co:title>The Handmaid's Tale</co:title>
+                <co:genres>
+                    <co:genre>Dystopian novel</co:genre>
+                    <co:genre>Speculative fiction</co:genre>
+                    <co:genre>Tragedy</co:genre>
+                </co:genres>
+                <co:categories>
+                    <co:category>Fiction</co:category>
+                    <co:category>Dystopian</co:category>
+                </co:categories>
+                <co:price currency="USD">29.95</co:price>
+                <co:language>English</co:language>
+            </co:book>
+        </co:books>
+    </co:bookshop>
+    <co:bookshop id="2">
+        <co:name>The Reading Corner</co:name>
+        <co:website>http://www.thereadingcorner.com</co:website>
+        <co:books>
+            <co:book id="201">
+                <co:authors>
+                    <co:author>F. Scott Fitzgerald</co:author>
+                </co:authors>
+                <co:title>The Great Gatsby</co:title>
+                <co:genres>
+                    <co:genre>Classic</co:genre>
+                    <co:genre>Fiction</co:genre>
+                </co:genres>
+                <co:categories>
+                    <co:category>Fiction</co:category>
+                    <co:category>American Literature</co:category>
+                </co:categories>
+                <co:price currency="USD">14.99</co:price>
+                <co:language>English</co:language>
+            </co:book>
+        </co:books>
+    </co:bookshop>
+</co:bookshops>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableOfRecords", "TableOfRecords\TableOfRecords.csproj", "{70D12589-D28C-4AD5-8092-E8903D17A686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableOfRecords.Tests", "TableOfRecords.Tests\TableOfRecords.Tests.csproj", "{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70D12589-D28C-4AD5-8092-E8903D17A686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D12589-D28C-4AD5-8092-E8903D17A686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D12589-D28C-4AD5-8092-E8903D17A686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D12589-D28C-4AD5-8092-E8903D17A686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB972ABC-BE5F-4337-BF0B-52D45366B1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

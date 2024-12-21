@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumberFiltering", "PalindromeNumberFiltering\PalindromeNumberFiltering.csproj", "{99AA17A9-C77F-4678-8419-E7B66D7E1166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumberFiltering.Tests", "PalindromeNumberFiltering.Tests\PalindromeNumberFiltering.Tests.csproj", "{8747BFCA-0AED-46D6-8946-B6D51DE98A24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99AA17A9-C77F-4678-8419-E7B66D7E1166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AA17A9-C77F-4678-8419-E7B66D7E1166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AA17A9-C77F-4678-8419-E7B66D7E1166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AA17A9-C77F-4678-8419-E7B66D7E1166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8747BFCA-0AED-46D6-8946-B6D51DE98A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8747BFCA-0AED-46D6-8946-B6D51DE98A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8747BFCA-0AED-46D6-8946-B6D51DE98A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8747BFCA-0AED-46D6-8946-B6D51DE98A24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
